@@ -76,7 +76,7 @@ vector<Appointment> User::get_acceptor_vector(){
 // Rest of the functions of User Class are defined as follows .
 
 void User::view_profile( map<string,User> &users_data , map< string , vector<Notification> > &app_notifications ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t  !!!  ACCOUNT DETAILS ARE DISPLAYED BELOW  !!!\n\n\n" ;
 
@@ -125,7 +125,7 @@ void User::edit_profile( map<string,User> &users_data , map< string , vector<Not
     string ch ;
     int option_number = 0 ;
 	do{
-        system("clear") ;
+        system("cls") ;
         cout<<"\n\n" ;
         cout<<"\t\t\t\t\t\t\t\t  !!!  EDITING PROFILE DETAILS  !!!\n\n\n" ;
 
@@ -177,7 +177,7 @@ void User::edit_profile( map<string,User> &users_data , map< string , vector<Not
 }
 
 void User::update_name( map< string , User> &users_data ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  EDITING 'NAME' FOR ACCOUNT  !!!\n\n\n" ;
 
@@ -229,7 +229,7 @@ void User::update_name( map< string , User> &users_data ){
 }
 
 void User::update_username( map<string,User> &users_data , map< string , vector<Notification> > &app_notifications ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  EDITING 'USERNAME' FOR ACCOUNT  !!!\n\n\n" ;
 	string new_username ;
@@ -368,7 +368,7 @@ void User::update_username( map<string,User> &users_data , map< string , vector<
 }
 
 void User::update_password( map<string,User> &users_data ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  EDITING 'PASSWORD' FOR ACCOUNT  !!!\n\n\n" ;
 
@@ -422,7 +422,7 @@ void User::select_features( map<string,User> &users_data , map<string, vector<No
 	string p ;
     int option_number = 0 ;
     do{
-        system("clear") ;
+        system("cls") ;
         cout<<"\n\n     *************************************************************  WELCOME TO YOUR ACCOUNT HOMEPAGE  ************************************************************* ";
 
     	cout<<"\n\n\n\t SELECT AMONG THE FOLLOWING OPTIONS TO PERFORM THE CORRESPONDING ACTIVITY : \n\n\n" ;
@@ -558,7 +558,7 @@ void User::print_appointments( User &current_user , vector<Appointment>& given_a
 }
 
 void User::view_all_appointments( map<string,User> &users_data , map< string , vector<Notification> > &app_notifications ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  SHOWING ALL APPOINTMENTS AS FOLLOWS  !!!\n\n" ;
     User &current_user = users_data[ username ] ;
@@ -614,7 +614,7 @@ void User::view_schedule( map<string,User> &users_data ){
     Date given_date = validator.get_todays_date() ;
 
     LOOP :
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  SHOWING ALL APPOINTMENTS AS FOLLOWS  !!!\n\n\n" ;
 
