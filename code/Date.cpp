@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 
-
 #include "Date.h"
 
 #define pb push_back

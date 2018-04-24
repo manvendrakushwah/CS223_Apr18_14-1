@@ -75,7 +75,7 @@ void Interface::open_application(){
                 // No need for log-out function here .
 //              cout<<"\nIn branch for 'exit option' i.e. 3 -> EXIT" ;
                 cout<<"\n\n\t\t\t\t\t\t\tExiting the application now .........................\n\n" ;
-//                Sleep(3000) ;
+  //              Sleep(3000) ;
                 break ;
             }
             default:{
@@ -226,7 +226,7 @@ void Interface::create_account(){
     	else{
         	cout<<"\n\n\t\t\t\t\t\t\t !!!  YOUR ACCOUNT HAS BEEN CREATED SUCCESSFULLY  !!! "<<endl ;
             cout<<"\n\n\t\t\t\t\t\tDirecting you to the application homepage now .....................\n\n" ;
- //           Sleep(3000) ;
+       //     Sleep(3000) ;
         	z2++;
     	}
     }
@@ -338,7 +338,7 @@ User Interface::enter_login_credentials(){
 
 		if( verdict ){ // Credentials are right .
         	cout<<"\n\n\t\t\t\t\t\t\t\t   !!!  LOGIN SUCCESSFUL  !!! "<<endl ;
-    //        Sleep(3000) ;
+         //   Sleep(3000) ;
 
 			temp_user = users_data[ username ] ;
 			return temp_user ;
