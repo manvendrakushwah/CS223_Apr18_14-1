@@ -15,7 +15,7 @@ void Seeker::cancel_appointment( User &current_user , map<string,User> &users_da
     if( current_user.get_seeker_vector().size() == 0 ){
         cout<<"\n\tYOU HAVE NO SUCH APPOINTMENTS THAT YOU CAN CANCEL .\n" ;
         cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ...................\n\n" ;
-        Sleep(3000) ;
+ //       Sleep(3000) ;
         return ;
     }
 
@@ -101,7 +101,7 @@ void Seeker::cancel_appointment( User &current_user , map<string,User> &users_da
     // Step 3 (begins here) .
 
     cout<<"\n\n\t\t\t\t\t\t\t !!!  THE SELECTED APPOINTMENT IS CANCELLED SUCCESSFULLY  !!! "<<endl ;
-    Sleep(3000) ;
+ //   Sleep(3000) ;
 
     // Step 3 (ends here) .
         // -----------
@@ -130,7 +130,7 @@ void Seeker::cancel_appointment( User &current_user , map<string,User> &users_da
 	}
 	else if( option_number99 == 2 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ...................\n\n" ;
-        Sleep(3000) ;
+   //     Sleep(3000) ;
 		return ;
 	}
 
@@ -215,7 +215,7 @@ map< string,vector<Notification> >& app_notifications ){
 
     cout<<"\n\n\t\t\t             !!!  NOTIFICATION OF REQUEST FOR APPOINTMENT TO THE SPECIFIED ACCEPTOR IS SENT SUCCESSFULLY  !!! "<<endl ;
     cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ...................\n\n" ;
-    Sleep(3000) ;
+ //   Sleep(3000) ;
 }
 
 void Seeker::print_users_list( User& current_user , map<string,User>& users_data , map<int,string>& user_index_num ){
