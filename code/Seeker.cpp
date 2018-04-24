@@ -8,7 +8,7 @@
 using namespace std ;
 
 void Seeker::cancel_appointment( User &current_user , map<string,User> &users_data , bool should_recurse ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n" ;
     cout<<"\n\t  NOTE : YOU ARE ALLOWED TO CANCEL ONLY THOSE APPOINTMENTS IN WHICH YOU SEEKED FROM ANOTHER USER/USERS i.e.\n" ;
     cout<<"\t  THE APPOINTMENTS IN WHICH YOU ARE PARTICIPATING AS A SEEKER .\n\n" ;
@@ -139,7 +139,7 @@ void Seeker::cancel_appointment( User &current_user , map<string,User> &users_da
 
 void Seeker::request_appointment( User& current_user , map<string,User>& users_data ,
 map< string,vector<Notification> >& app_notifications ){
-    system("clear") ;
+    system("cls") ;
     cout<<"\n\n" ;
 	cout<<"\t\t\t\t\t\t\t\t  !!!  APPOINTMENT REQUEST PROCESS BEGINS  !!!\n\n\n" ;
 
