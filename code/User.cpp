@@ -110,12 +110,12 @@ void User::view_profile( map<string,User> &users_data , map< string , vector<Not
 
 	if( option_number == 1 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'EDIT PROFILE' option now ........................\n\n" ;
-        Sleep(3000) ;
+  //      Sleep(3000) ;
 		edit_profile( users_data , app_notifications ) ;
 	}
 	else if( option_number == 2 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ..................\n\n" ;
-        Sleep(3000) ;
+  //      Sleep(3000) ;
 		select_features( users_data , app_notifications , 1 ) ;
 	}
 }
@@ -163,7 +163,7 @@ void User::edit_profile( map<string,User> &users_data , map< string , vector<Not
             case 4:{
                 option_number = 4 ;
                 cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ..................\n\n" ;
-                Sleep(3000) ;
+        //        Sleep(3000) ;
                 break ;
             }
 			default:{
@@ -225,7 +225,7 @@ void User::update_name( map< string , User> &users_data ){
 
     cout<<"\n\n\t\t\t\t\t\t\t !!!  'NAME' IN YOUR ACCOUNT HAS BEEN CHANGED SUCCESSFULLY  !!! "<<endl ;
     cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'EDIT PROFILE' option now ........................\n\n" ;
-    Sleep(3000) ;
+  //  Sleep(3000) ;
 }
 
 void User::update_username( map<string,User> &users_data , map< string , vector<Notification> > &app_notifications ){
@@ -364,7 +364,7 @@ void User::update_username( map<string,User> &users_data , map< string , vector<
 
     cout<<"\n\n\t\t\t\t\t\t\t !!!  'USERNAME' IN YOUR ACCOUNT HAS BEEN CHANGED SUCCESSFULLY  !!! "<<endl ;
     cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'EDIT PROFILE' option now ........................\n\n" ;
-    Sleep(3000) ;
+  //  Sleep(3000) ;
 }
 
 void User::update_password( map<string,User> &users_data ){
@@ -406,7 +406,7 @@ void User::update_password( map<string,User> &users_data ){
 
     cout<<"\n\n\t\t\t\t\t\t\t !!!  'PASSWORD' IN YOUR ACCOUNT HAS BEEN CHANGED SUCCESSFULLY  !!! "<<endl ;
     cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'EDIT PROFILE' option now ........................\n\n" ;
-    Sleep(3000) ;
+   // Sleep(3000) ;
 }
 
 void User::logout( int &option_number ){
@@ -489,7 +489,7 @@ void User::select_features( map<string,User> &users_data , map<string, vector<No
 //              cout<<"\nIn branch for logout function .\n" ;
                 logout( option_number ) ;
                 cout<<"\n\n\t\t\t\t\t\tDirecting you to the application homepage now .....................\n\n" ;
-                Sleep(3000) ;
+         //       Sleep(3000) ;
 //              cout<<"\nOut of logout function .\n" ;
                 break ;
 			}
@@ -592,17 +592,17 @@ void User::view_all_appointments( map<string,User> &users_data , map< string , v
     Seeker user_as_seeker ;
     if( option_number == 1 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'REQUEST APPOINTMENT' option now ........................\n\n" ;
-        Sleep(3000) ;
+    //    Sleep(3000) ;
         user_as_seeker.request_appointment( current_user , users_data , app_notifications ) ;
     }
 	else if( option_number == 2 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting you to 'CANCEL APPOINTMENT' option now ........................\n\n" ;
-        Sleep(3000) ;
+      //  Sleep(3000) ;
 		user_as_seeker.cancel_appointment( current_user , users_data , 1 ) ;
 	}
 	else if( option_number == 3 ){
         cout<<"\n\n\t\t\t\t\t\t\tDirecting to your account homepage now ...................\n\n" ;
-        Sleep(3000) ;
+     //   Sleep(3000) ;
 		return ;
 	}
 }
