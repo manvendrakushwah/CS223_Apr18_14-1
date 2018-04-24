@@ -209,12 +209,12 @@ map< string , vector<Notification> > &app_notifications ){
 
         cout<<"\n\n                                        YOU HAVE PROCESSED ALL NOTIFICATIONS OF REQUESTS FOR APPOINTMENTS , DIRECTING YOU TO YOUR ACCOUNT ";
         cout<<"HOMEPAGE NOW .\n\n" ;
-        Sleep(3000) ;
+ //       Sleep(3000) ;
     }
     else{
         cout<<"\n\n\tYOU HAVE NO NOTIFICATIONS OF REQUESTS FOR APPOINTMENTS AT THIS POINT OF TIME , DIRECTING YOU TO YOUR ACCOUNT ";
         cout<<"HOMEPAGE NOW .\n\n" ;
-        Sleep(3000) ;
+ //       Sleep(3000) ;
     }
 
     // Verdict Process ( ends here ) .
