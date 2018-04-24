@@ -38,7 +38,7 @@ void Interface::open_application(){
     string a ;
     int option_number = 0 ;
     do{
-        system("clear") ;
+        system("cls") ;
         cout<<"\n\n     ****************************************************  WELCOME TO MEETING APPOINTMENT SCHEDULER SOFTWARE  **************************************************** ";
     	cout<<"\n\n\n\t  SELECT AMONG THE FOLLOWING OPTIONS TO PERFORM THE CORRESPONDING ACTIVITY : " ;
 
@@ -90,7 +90,7 @@ void Interface::open_application(){
 }
 
 void Interface::create_account(){
-    system("clear") ;
+    system("cls") ;
 	cout<<"\n\n\t\t\t\t\t\t\t\t\t!!!  REGISTRATION BEGINS  !!!\n" ;
 	cout<<"\n\t  THE PROCESS FOR ACCOUNT CREATION CONSISTS OF 3 STEPS WHICH ARE AS FOLLOWS :\n" ;
     Validate_Input validator ;
@@ -300,7 +300,7 @@ bool Interface::verify_login_credentials( string username , string password ){
 }
 
 User Interface::enter_login_credentials(){
-    system("clear") ;
+    system("cls") ;
 	User temp_user ;
 	string username , password ;
     cout<<"\n\n\t\t\t\t\t\t\t\t!!!  LOGIN PROCESS BEGINS  !!!\n\n" ;
