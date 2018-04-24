@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SE_project_version_2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SE_project_version_2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SE_project_version_2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Acceptor.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Acceptor.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Appointment.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Appointment.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Calendar.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Calendar.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Calendar_Data.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Calendar_Data.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Date.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Date.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Interface.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Interface.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Normal_Appointment.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Normal_Appointment.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Notification.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Notification.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Priority_Appointment.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Priority_Appointment.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Seeker.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Seeker.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Slot.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Slot.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Time.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Time.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="User.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="User.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Validate_Input.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Validate_Input.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
