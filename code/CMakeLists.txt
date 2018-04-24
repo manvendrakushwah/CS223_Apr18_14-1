@@ -1,51 +1,40 @@
 cmake_minimum_required(VERSION 3.10)
-project(sem)
+project(MAS)
 
 set(CMAKE_CXX_STANDARD 11)
 
 include_directories(.)
 
-add_executable(sem 
-	AddEquipmentController.cpp
-        AddEquipmentController.h
-        Application.cpp
-        Application.h
-        AvailableEquipments.cpp
-        AvailableEquipments.h
-        Guard.cpp
-        Guard.h
-        main.cpp
-        OutstandingEquipments.cpp
-        OutstandingEquipments.h
-        SecretaryController.cpp
-        SecretaryController.h
-        SecretaryHomePageController.cpp
-        SecretaryHomePageController.h
-        SecretaryLoginController.cpp
-        SecretaryLoginController.h
-        Student.cpp
-        Student.h
-        StudentController.cpp
-        StudentController.h
-        StudentDuesController.cpp
-        StudentDuesController.h
-        StudentHomePageController.cpp
-        StudentHomePageController.h
-        StudentIssueEquipmentController.cpp
-        StudentIssueEquipmentController.h
-        StudentLoginController.cpp
-        StudentLoginController.h
-        StudentReturnEquipmentController.cpp
-        StudentReturnEquipmentController.h
-        TotalEquipments.cpp
-        TotalEquipments.h
-        ViewByAvailabilityController.cpp
-        ViewByAvailabilityController.h
-        ViewByCategoryController.cpp
-        ViewByCategoryController.h
-        ViewByOutstandingController.cpp
-        ViewByOutstandingController.h
-        ViewDetailsController.cpp
-        ViewDetailsController.h
-        ViewStudentDuesController.cpp
-        ViewStudentDuesController.h)
+add_executable(MAS
+	Acceptor.h
+	Acceptor.cpp
+	Appointment.h
+	Appointment.cpp
+	Calendar.h
+	Calendar.cpp
+	Calendar_Data.h
+	Calendar_Data.cpp
+	Date.h
+	Date.cpp
+	File_Handling.h
+	File_Handling.cpp
+	Interface.h
+	Interface.cpp
+	main.cpp
+	Normal_Appointment.h
+	Normal_Appointment.cpp
+	Notification.h
+	Notification.cpp
+	Priority_Appointment.h
+	Priority_Appointment.cpp
+	Seeker.h
+	Seeker.cpp
+	Slot.h
+	Slot.cpp
+	Time.h
+	Time.cpp
+	User.h
+	User.cpp
+	Validate_Input.h
+	Validate_Input.cpp
+	)
