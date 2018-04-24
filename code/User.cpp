@@ -1,11 +1,5 @@
 #include <bits/stdc++.h>
 
-#include <stdio.h>
-#include <time.h>
-#include <unistd.h>
-#include <dos.h>
-#include <windows.h>
-
 #include "User.h"
 #include "Seeker.h"
 #include "Acceptor.h"
